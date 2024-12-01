@@ -1,5 +1,26 @@
-node_modules
+# Node.js / Express (Backend)
+node_modules/
 package-lock.json
+npm-debug.log
+yarn-error.log
 .env
-client/node_modules
+*.env
+client/node_modules/
 client/package-lock.json
+
+# React (Frontend)
+client/build/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE files (Optional: Only add if using specific IDEs)
+.idea/
+.vscode/
+
+# Miscellaneous
+*.swp
