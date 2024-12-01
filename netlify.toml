@@ -1,0 +1,8 @@
+[build]
+  command = "npm install && npm run client-install && npm run client-build"
+  publish = "client/build"
+
+[build.environment]
+  MONGODB_URI = "mongodb+srv://user:codeforinterview@job-portal.4zinb.mongodb.net/"
+  NODE_ENV = "production"
+
